@@ -1,0 +1,29 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+db:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/jstudyplanner?useSSL=false
+  username: root
+
+hibernate:
+  dialect: org.hibernate.dialect.MySQL5Dialect
+  hbm2ddl:
+    auto: update
+  show_sql: true
+
+management:
+  security:
+    enabled: false
+
+endpoints:
+  shutdown:
+    enabled: true
+
+logging:
+  level:
+    com:
+      jstudyplanner: ERROR
