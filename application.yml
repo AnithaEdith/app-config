@@ -5,8 +5,3 @@ security:
 management:
   security:
     enabled: false
-
-logging:
-  level:
-    com:
-      jstudyplanner: DEBUG
