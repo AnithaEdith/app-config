@@ -8,5 +8,5 @@ management:
 
 logging:
   level:
-    io:
-      pivotal: DEBUG
+    com:
+      jstudyplanner: DEBUG

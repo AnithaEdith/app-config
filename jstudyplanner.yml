@@ -26,4 +26,4 @@ endpoints:
 logging:
   level:
     com:
-      jstudyplanner: ERROR
+      jstudyplanner: DEBUG
