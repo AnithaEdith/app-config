@@ -22,3 +22,7 @@ logging:
   level:
     com:
       jstudyplanner: DEBUG
+
+campus:
+  url: http://localhost:8090
+  getall: /campusService/getAllCampuses
