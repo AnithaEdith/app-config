@@ -25,4 +25,4 @@ logging:
 
 campus:
   url: http://localhost:8090
-  getall: campusService/getAllCampuses
+  getall: /campusService/getAllCampuses
