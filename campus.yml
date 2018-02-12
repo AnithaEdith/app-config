@@ -1,9 +1,8 @@
-hibernate:
-  dialect: org.hibernate.dialect.MySQL5Dialect
-  hbm2ddl:
-    auto: update
-  show_sql: true
-
 spring:
   application:
     name: campus-service
+  ijpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL5Dialect
+      ddl-auto: update
