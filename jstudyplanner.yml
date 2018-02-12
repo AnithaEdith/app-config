@@ -26,4 +26,4 @@ logging:
 campus:
   url: http://localhost:8090
   getall: campusService/getAllCampuses
-  getbycode: campusService/getCampusByCode
+  getbycode: campusService/getCampusByCode/
