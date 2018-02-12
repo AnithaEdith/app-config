@@ -3,3 +3,7 @@ hibernate:
   hbm2ddl:
     auto: update
   show_sql: true
+
+spring:
+  application:
+    name: campus-service
